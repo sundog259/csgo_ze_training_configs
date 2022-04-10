@@ -2,14 +2,14 @@
 ::MapName <- GetMapName();
 ::ScriptVersion <- "12.12.2021 - 5:21";
 Stage <- -1;
-WARMUP_TIME <- 90.0;
+WARMUP_TIME <- 10.0;
 ::ITEM_GLOW <- true; 			// set false to disable this
 ::MAPPER_ENT_FIRE <- true; 		// set false to disable this
 ::ENT_WATCH_ENABLE <- true; 	// set false to disable this(change entwatch config!)
 ::ENT_WATCH_TEAM <- true; 		// set false to disable this
 
 ::COLOR_ENABLE <- true; 		// set false to disable this
-::AUTO_RETRY_ENABLE <- true; 	// set false to disable this
+::AUTO_RETRY_ENABLE <- false; 	// set false to disable this
 	
 ::WAFFEL_CAR_ENABLE <- true;	// set false to disable this
 ::BHOP_ENABLE <- false; 		// set false to disable this
@@ -286,6 +286,13 @@ function MapStart()
 			EntFire("Credits_Game_Text", "Display", "", 10);
 			EntFire("Credits_Game_Text", "AddOutput", "message EXTREME MODE", 9.95);
 			EntFire("cmd", "Command", "say **EXTREME MODE**", 4);
+			
+			EntFire("Map_TD", "AddOutput", "angles 0 180 0", 0.1);
+			EntFire("Map_TD", "AddOutput", "origin -6497.965332 -993.478027 1890.14428", 0.2);
+			EntFire("Temp_Extreme", "ForceSpawn", "", 0.5);
+			EntFire("Hold_End_Button", "Unlock", "", 0.1);
+			EntFire("Hold_End_Button", "Press", "", 0.2);
+			EntFire("Map_TP_1", "Enable", "", 15);
 
 			SendToConsoleServerPS("zr_infect_mzombie_respawn 1");
 			SendToConsoleServerPS("zr_infect_mzombie_ratio 6");
@@ -7094,30 +7101,27 @@ function Trigger_Hold_End()
 	}
 	if(Stage == 4)
 	{
-		text = "The final door opens in 35 seconds"
+		text = "The final door opens in 15 seconds"
 		ServerChat(Chat_pref + text, 10);
 
-		EntFire("Hold5_Door", "Open", "", 45);
+		EntFire("Hold5_Door", "Open", "", 15);
 
-		EntFire("New_ending_wall", "Kill", "", 47);
-		EntFire("explosion", "RunScriptCode", "CreateExplosion(Vector(-521,-957,2053),228,100)", 46.99);
+		EntFire("New_ending_wall", "Kill", "", 17);
+		EntFire("explosion", "RunScriptCode", "CreateExplosion(Vector(-521,-957,2053),228,100)", 16.99);
 
 		EntFire("Temp_End", "ForceSpawn", "", 5);
 		EntFire("End_Fire", "Start", "", 10);
 
-		EntFire("Extreme_Reno_Model", "Enable", "", 45);
-		EntFire("Extreme_Reno_Model", "FireUser2", "", 46);
-		EntFire("Extreme_Reno_Model", "RunScriptCode", "PlaySound(Sound_First);", 49);
+		EntFire("Extreme_Reno_Model", "Enable", "", 15);
+		EntFire("Extreme_Reno_Model", "FireUser2", "", 16);
+		EntFire("Extreme_Reno_Model", "RunScriptCode", "PlaySound(Sound_First);", 19);
 
-		EntFire("Map_Shake_7_Sec", "StartShake", "", 0);
-		EntFire("Map_Shake_7_Sec", "StartShake", "", 16);
-		EntFire("Map_Shake_7_Sec", "StartShake", "", 33);
 
 		text = "Damn, that's ain't easy one."
-		ServerChat(Tifa_pref + text, 45);
+		ServerChat(Tifa_pref + text, 15);
 
 		text = "I am concerned with the fact that he looked different."
-		ServerChat(RedX_pref + text, 47);
+		ServerChat(RedX_pref + text, 17);
 	}
 	if(Stage == 5)
 	{
@@ -8374,5 +8378,3 @@ function PreCacheModels()
 		}
 	}
 }
-
-//repush

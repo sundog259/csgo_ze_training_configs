@@ -287,8 +287,8 @@ function MapStart()
 			EntFire("Credits_Game_Text", "AddOutput", "message EXTREME MODE", 9.95);
 			EntFire("cmd", "Command", "say **EXTREME MODE**", 4);
 			
-			EntFire("Map_TD", "AddOutput", "angles 0 180 0", 0.1);
-			EntFire("Map_TD", "AddOutput", "origin -6497.965332 -993.478027 1890.14428", 0.2);
+			EntFire("Map_TD", "AddOutput", "angles 0 180 0", 14.8);
+			EntFire("Map_TD", "AddOutput", "origin -6497.965332 -993.478027 1890.14428", 14.7);
 			EntFire("Temp_Extreme", "ForceSpawn", "", 0.5);
 			EntFire("Hold_End_Button", "Unlock", "", 0.1);
 			EntFire("Hold_End_Button", "Press", "", 0.2);

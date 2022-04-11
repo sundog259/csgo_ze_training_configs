@@ -21,10 +21,8 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_FFVII_Cosmo_Canyon_v
 http://21od.wc38.com/fastdlze/maps/ze_ffvii_cosmo_canyon_v6test4.bsp
 http://21od.wc38.com/fastdlze/maps/ze_FFVII_Mako_Reactor_v5_3_v5.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffvii_mako_reactor_v6_b09k2.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_FFVII_Snow_Cosmo_v5_5f.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffvii_temple_ancient_v5_2.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffxii_feywood_b6_3k.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffxii_moko_temple_v1_1_p2.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_FFXII_Mt_Bur_Omisace_v5_4fix4.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_FFXII_Paramina_Rift_r4.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffxii_ridorana_cataract_t5_3_w6.bsp.bz2

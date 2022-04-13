@@ -28,7 +28,7 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_FFXII_Paramina_Rift_
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffxii_ridorana_cataract_t5_3_w6.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffxii_westersand_v7_z9.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffxii_westersand_v8zeta1_b5k.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_ffxxiii_westrcanoyn_f12xd_csgo2.bsp.bz2
+http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_flower_a1_2_f.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_genso_of_last_v3_4_t1.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_geometric_v1_4.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_grau_a03_4ff.bsp.bz2

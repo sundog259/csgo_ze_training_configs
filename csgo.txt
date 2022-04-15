@@ -28,18 +28,13 @@
 			"ze_ffxii_ridorana_cataract_t5_3_w6" {}
 			"ze_ffxii_westersand_v7_z9" {}
 			"ze_ffxii_westersand_v8zeta1_b5k" {}
-			"ze_ffxxiii_westrcanoyn_f12xd_csgo2" {}
 			"ze_genso_of_last_v3_4_t1" {}
 			"ze_geometric_v1_4" {}
 			"ze_grau_a03_4ff" {}
 			"ze_gris_v1_13" {}
-			"ze_illusory_world_v4_5" {}
 			"ze_japans_3rd_bombing_v8" {}
 			"ze_Kitchen_v2" {}
-			"ze_l_The_Lower_v1_8f" {}
-			"ze_L_The_Medium_v1_6" {}
 			"ze_light_shadow_l1_4" {}
-			"ze_light_v7_csgo_tk13_v5_2fix" {}
 			"ze_luciddreams_f5_6" {}
 			"ze_luck_matters_v3_1" {}
 			"ze_lux_umbra_v1" {}
@@ -62,7 +57,6 @@
 			"ze_pidaras_va2" {}
 			"ze_Pirates_Port_Royal_v5_6" {}
 			"ze_pkmn_adventure_v9_3" {}
-			"ze_ponchermonkey_shooter_csgo1" {}
 			"ze_project_codex_a3_1" {}
 			"ze_R_W_B_ulti" {}
 			"ze_Rabanastre_Royal_t5" {}

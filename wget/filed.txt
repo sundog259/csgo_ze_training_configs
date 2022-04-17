@@ -33,7 +33,6 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_genso_of_last_v3_4_t
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_geometric_v1_4.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_grau_a03_4ff.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_gris_v1_13.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_japans_3rd_bombing_v8.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_Kitchen_v2.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_light_shadow_l1_4.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_luciddreams_f5_6.bsp.bz2

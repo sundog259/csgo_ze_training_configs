@@ -35,7 +35,6 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_grau_a03_4ff.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_gris_v1_13.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_Kitchen_v2.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_luciddreams_f5_6.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_luck_matters_v3_1.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_lux_umbra_v1.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_m_the_final_v1_4.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_madara_temple_v1fix_csgo.bsp.bz2
@@ -82,7 +81,6 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_tenkinoko_welkin_v1_
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_the_new_era_of_crazy_escape_b8.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_three_eyes_v1_1.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_tilex_ultimate_v2_13e.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_titanlaser_b3.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_totally_new_wester_f.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_trials_v3_test.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_tyranny_v5_go3.bsp.bz2

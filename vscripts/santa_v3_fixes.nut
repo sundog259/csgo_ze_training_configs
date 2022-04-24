@@ -1,11 +1,5 @@
-//#####################################################################
-//Patched version intended for use with GFL ze_santassination_v3 stripper
-//Implements all of Luffarens fixes
-//Install as csgo/scripts/vscripts/gfl/santa_v3_fixes.nut
-//#####################################################################
-
 //
-//		OFFICIAL ZE_SANTASSINATION_V3 STRIPPER SOLUTION
+//		UNOFFICIAL ZE_SANTASSINATION_V3 STRIPPER SOLUTION
 //		UPDATED: 2020-08-20 (#9)
 //		CONTACT: https://steamcommunity.com/id/LuffarenPer/
 //
@@ -44,14 +38,15 @@
 //DO NOT ALTER THESE VALUES, if something seems off, contact me (Luffaren):
 //>>>>>		https://steamcommunity.com/id/LuffarenPer/
 //----------------------------------------------------------------------------\\
-DAMAGE_MINIGUN <- 50;		//the actual trigger would damage 50	(minigun > ticks really fast, 	0.07s cooldown)
-DAMAGE_BEAM <- 250;			//the actual trigger would damage 250	(laser > ticks at each fire, 	1.00s cooldown)
-DAMAGE_EXPLOSION <- 300;	//the actual trigger would damage 300	(explosion > from rocket,		7.50s cooldown)
-DAMAGE_ROCKET <- 500;		//the actual trigger would damage 500	(rocket direct hit,				7.50s cooldown)
+DAMAGE_MINIGUN <- 75;		//the actual trigger would damage 50	(minigun > ticks really fast, 	0.07s cooldown)
+DAMAGE_BEAM <- 375;			//the actual trigger would damage 250	(laser > ticks at each fire, 	1.00s cooldown)
+DAMAGE_EXPLOSION <- 500;	//the actual trigger would damage 300	(explosion > from rocket,		7.50s cooldown)
+DAMAGE_ROCKET <- 1000;		//the actual trigger would damage 500	(rocket direct hit,				7.50s cooldown)
 //============================================================================\\
 ticking <- false;
 lastrocket <- null;
 worldtext <- false;
+worldtext2 <- false;
 bossfight <- false;
 bosstarget <- null;
 bossindex <- 0;
@@ -86,11 +81,12 @@ function ClearBossTarget()
 	{
 		worldtext = true;
 		local e = Entities.CreateByClassname("point_worldtext");
-		EntFireByHandle(e,"AddOutput","message LUFFAREN OFFICIAL STRIPPER #9 (2020-08-20)",0.00,null,null);
+		EntFireByHandle(e,"AddOutput","message UNOFFICIAL STRIPPER (2022-04-24). Official v9 + BossHP v5 + GFL Fixes + ZM Items",0.00,null,null);
 		EntFireByHandle(e,"AddOutput","textsize 8",0.00,null,null);
-		EntFireByHandle(e,"AddOutput","origin -4605 -7015 -5100",0.00,null,null);
+		EntFireByHandle(e,"AddOutput","color 255 0 0",0.00,null,null);
+		EntFireByHandle(e,"AddOutput","origin -4605 -7115 -5088",0.00,null,null);
 		EntFireByHandle(e,"AddOutput","angles 0 180 0",0.00,null,null);
-		speederallowed = false;
+		speederallowed = false;	
 		//local sst = "say |S#6|m"+DAMAGE_MINIGUN.tostring()+"|b"+DAMAGE_BEAM.tostring()+"|e"+DAMAGE_EXPLOSION.tostring()+"|r"+DAMAGE_ROCKET.tostring()+"|";
 		//EntFire("server","Command",sst,0.00,null);	(removed in #6, a bit confusing for people)
 		EntFire("npctarget","AddOutput","targetname notarget",1.00,null);	//ADDED IN EDIT #8
@@ -211,23 +207,6 @@ function TickBossPlayerTarget()
 		}
 	}
 }
-extremeModeAct3HealsAllowed <- false;
-function ExtremeModeAct3HealsPre(){extremeModeAct3HealsAllowed = true;}
-function ExtremeModeAct3Heals()
-{
-	if(!extremeModeAct3HealsAllowed)return;	//not extreme mode, abort!
-	//else spawn extra healthkits
-	
-	EntFire("s_item_healthkit","AddOutput","origin -360 -8080 -3576",0.00,null);	//behind container after first door on tram-path
-	EntFire("s_item_healthkit","ForceSpawn","",0.05,null);
-	
-	EntFire("s_item_healthkit","AddOutput","origin -176 -7816 1064",0.10,null);		///first outside, hidden in the back after first staircase up
-	EntFire("s_item_healthkit","ForceSpawn","",0.15,null);
-	
-	EntFire("s_item_healthkit","AddOutput","origin -1376 -6688 -3960",0.20,null);	//start of mid-path, reachable by strafe-jumping down from tram-path
-	EntFire("s_item_healthkit","ForceSpawn","",0.25,null);
-}
-
 function TickRocketCheck()
 {
 	if(!ticking)
@@ -430,4 +409,88 @@ function CleanHealAfterUse()
 	EntFireByHandle(par,"Kill","",0.00,null,null);
 }
 
+function ZM_Heal_Tick()
+{
+	local h = null;
+	while(null != (h = Entities.FindInSphere(h,activator.GetOrigin(),500)))
+	{
+		if(h.GetTeam() == 2 && h.GetHealth() > 0 && h.IsValid())
+		{
+			EntFireByHandle(h,"AddOutput","max_health 30000",0.00,null,null);
+			EntFireByHandle(h,"SetHealth","30000",0.05,null,null);
+		}
+	}
+}
 
+function ZM_Heal_IgnoreIgnite()
+{
+	local h = null;
+	while(null != (h = Entities.FindInSphere(h,activator.GetOrigin(),500)))
+	{
+		if(h.GetTeam() == 2 && h.GetHealth() > 0 && h.IsValid())
+		{
+			EntFireByHandle(h,"IgniteLifetime","0",0.00,null,null);
+			EntFireByHandle(h,"SetDamageFilter","filter_zmignore_ignite",0.00,null,null);
+			EntFireByHandle(h,"SetDamageFilter","",4.00,null,null);
+		}
+	}
+}
+
+function Stripper_Unoficial_Message()
+{
+	ScriptPrintMessageChatAll(" \x0B[\x04Stripper\x0B]\x01 Unofficial Stripper by \x03 DarkerZ[RUS]\x01 and \x0BLeXeR");
+}
+
+DZ_extreme<-false;
+DZ_level<-0;
+DZ_truth<-false;
+
+function Spawn_Speeders()
+{
+	if(DZ_extreme)
+	{
+		if(DZ_level==1) EntFire("zm_speeder1_maker","ForceSpawn","",0.00,null);
+		else if(DZ_level==2) EntFire("zm_speeder2_maker","ForceSpawn","",0.00,null);
+		else if(DZ_level==3) EntFire("zm_speeder3_maker","ForceSpawn","",0.00,null);
+	}
+}
+
+function Gateface_func(number)
+{
+	if(number>0) ScriptPrintMessageCenterAll("Gateface "+(7-number)+"/7");
+	else ScriptPrintMessageCenterAll("Gateface is fed");
+}
+
+function GetWon()
+{
+	if(DZ_extreme)
+	{
+		if(DZ_level==0) EntFire("Case_Winners","InValue","PE",0.00,null);
+		else if(DZ_level==1) EntFire("Case_Winners","InValue","1E",0.00,null);
+		else if(DZ_level==2) EntFire("Case_Winners","InValue","2E",0.00,null);
+		else if(DZ_level==3)
+		{
+			if(DZ_truth) EntFire("Case_Winners","InValue","3E",0.00,null);
+			else EntFire("Case_Winners","InValue","3EN",0.00,null);
+		}
+	}else
+	{
+		if(DZ_level==0) EntFire("Case_Winners","InValue","P",0.00,null);
+		else if(DZ_level==1) EntFire("Case_Winners","InValue","1",0.00,null);
+		else if(DZ_level==2) EntFire("Case_Winners","InValue","2",0.00,null);
+		else if(DZ_level==3)
+		{
+			if(DZ_truth) EntFire("Case_Winners","InValue","3",0.00,null);
+			else EntFire("Case_Winners","InValue","3N",0.00,null);
+		}
+	}
+}
+
+function ZM_ContextFix()
+{
+	local h = null;
+	while(null!=(h=Entities.FindByClassname(h,"player")))
+	{
+		EntFireByHandle(h,"AddContext","ZMITEM_player:0",0.00,null,null);
+	}
+}

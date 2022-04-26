@@ -31,6 +31,7 @@
 			"ze_genso_of_last_v3_4_t1" {}
 			"ze_geometric_v1_4" {}
 			"ze_grau_a03_4ff" {}
+			"ze_grey_world_v1" {}
 			"ze_gris_v1_13" {}
 			"ze_japans_3rd_bombing_v8" {}
 			"ze_Kitchen_v2" {}

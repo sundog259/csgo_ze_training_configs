@@ -76,18 +76,15 @@
 			"ze_sit_caelum_paradisus_b7_hdr" {}
 			"ze_sky_fantasy_v2_1" {}
 			"ze_stalker_ultimate_v2_3_gg" {}
-			"ze_stilshrine_of_miriam_v6_2" {}
+			"ze_stilshrine_of_miriam_v7_2fix" {}
 			"ze_surf_dark_fantasy_v2go2" {}
 			"ze_surf_easy_v1_2" {}
 			"ze_tenkinoko_welkin_v1_6f" {}
 			"ze_the_new_era_of_crazy_escape_b8" {}
 			"ze_three_eyes_v1_1" {}
 			"ze_tilex_ultimate_v2_13e" {}
-			"ze_titanlaser_b3" {}
-			"ze_totally_new_wester_f" {}
 			"ze_trials_v3_test" {}
 			"ze_tyranny_v5_go3" {}
 			"ze_tyranny2_v1_csgo2" {}
 			"ze_Uchiha_Legacy_cm2_fix" {}
 			"ze_visualizer_v1_2" {}
-			"ze_zalupahui_v1_fix" {}

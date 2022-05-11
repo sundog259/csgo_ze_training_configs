@@ -363,8 +363,19 @@
 	weapon_reticle_knife_show							1
 	weapon_sound_falloff_multiplier						1
 	sv_camera_fly_enabled								1
+	
 	say 1
-	sm_makovote 1
-	sm_startrace 1
-	sm_endrace 1
+	sm_setcooldown 1
+	sm_setmaxuses 1
+	sm_addmaxuses 1
+	sm_ewsetmode 1
+	
+	exec							1
+	sm_cvar							1
+	sm_say							1
+	sm_rcon							1
+	sm_gravity						1
+	host_timescale 1
+	sm_freeze 1
+	sv_enablebunnyhopping 1
 }

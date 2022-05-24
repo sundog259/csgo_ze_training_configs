@@ -8,7 +8,7 @@
 			"ze_chroma_v0_4_csgo5" {}
 			"ze_colorful_v2_4" {}
 			"ze_conflict_v4_4" {}
-			"ze_copy_escape_v2_2" {}
+			"ze_copy_escape_v2_3" {}
 			"ze_core_v2b" {}
 			"ze_crystal_escape_v2_final" {}
 			"ze_danmaku_v1_5" {}

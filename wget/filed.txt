@@ -8,7 +8,7 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_cancer_gopnik_escape
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_chroma_v0_4_csgo5.bsp.bz2
 http://21od.wc38.com/fastdlze/maps/ze_colorful_v2_4.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_conflict_v4_4.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_copy_escape_v2_2.bsp.bz2
+http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_copy_escape_v2_3.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_core_v2b.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_crystal_escape_v2_final.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_danmaku_v1_5.bsp.bz2

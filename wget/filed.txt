@@ -87,6 +87,6 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_totally_new_wester_f
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_trials_v3_test.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_tyranny_v5_go3.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_tyranny2_v1_csgo2.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_Uchiha_Legacy_cm2_fix.bsp.bz2
+http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_Uchiha_Legacy_cm2_fix.bsp
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_visualizer_v1_2.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_zalupahui_v1_fix.bsp.bz2

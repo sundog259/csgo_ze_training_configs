@@ -1,7 +1,6 @@
 			"ze_666_crazy_escape_v2_4" {}
 			"ze_angelbeats_guild_a1_fix2" {}
 			"ze_aware_v1_2a" {}
-			"ze_best_korea_v1" {}
 			"ze_binary_z4_1" {}
 			"ze_blue_zenith_v0_2" {}
 			"ze_cancer_gopnik_escape_v9_2" {}
@@ -78,7 +77,7 @@
 			"ze_stalker_ultimate_v2_3_gg" {}
 			"ze_stilshrine_of_miriam_v7_2fix" {}
 			"ze_surf_dark_fantasy_v2go2" {}
-			"ze_surf_easy_v1_2" {}
+			"ze_surf_easy_v1_3" {}
 			"ze_tenkinoko_welkin_v1_6f" {}
 			"ze_the_new_era_of_crazy_escape_b8" {}
 			"ze_three_eyes_v1_1" {}

@@ -32,11 +32,9 @@
 			"ze_grau_a03_4ff" {}
 			"ze_grey_world_v1" {}
 			"ze_gris_v1_13" {}
-			"ze_japans_3rd_bombing_v8" {}
 			"ze_Kitchen_v2" {}
 			"ze_light_shadow_l1_4" {}
 			"ze_luciddreams_f5_7" {}
-			"ze_luck_matters_v3_1" {}
 			"ze_lux_umbra_v1" {}
 			"ze_m_the_final_v1_4" {}
 			"ze_madara_temple_v1fix_csgo" {}
@@ -80,7 +78,6 @@
 			"ze_surf_easy_v1_3" {}
 			"ze_tenkinoko_welkin_v1_6f" {}
 			"ze_the_new_era_of_crazy_escape_b8" {}
-			"ze_three_eyes_v1_1" {}
 			"ze_tilex_ultimate_v2_13e" {}
 			"ze_trials_v3_test" {}
 			"ze_tyranny_v5_go3" {}

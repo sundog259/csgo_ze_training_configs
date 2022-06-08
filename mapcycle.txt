@@ -24,6 +24,7 @@ ze_FFVII_Cosmo_Canyon_v5k_fix
 ze_ffvii_cosmo_canyon_v6test4
 ze_FFVII_Mako_Reactor_v5_3_v5
 ze_ffvii_mako_reactor_v6_b09k2
+ze_ffvii_malgo_reactor_v8_5
 ze_ffvii_temple_ancient_v5_2
 ze_ffxii_feywood_b6_3k
 ze_FFXII_Mt_Bur_Omisace_v5_4fix4

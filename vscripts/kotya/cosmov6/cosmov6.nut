@@ -1,7 +1,7 @@
 ::MainScript <- self;
 ::MapName <- GetMapName();
 ::ScriptVersion <- "12.12.2021 - 5:21";
-Stage <- -1;
+Stage <- 4;
 WARMUP_TIME <- 10.0;
 ::ITEM_GLOW <- true; 			// set false to disable this
 ::MAPPER_ENT_FIRE <- true; 		// set false to disable this

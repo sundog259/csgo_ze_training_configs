@@ -53,7 +53,6 @@ ze_naiads_v4a_6f
 ze_neochrome_csgo3a
 ze_nomada_h3
 ze_nora_v1_11
-ze_oblivion_castle_v6
 ze_oblivion_mountain_b2k
 ze_offliner_v2_csgo1
 ze_omen_090

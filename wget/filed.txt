@@ -55,7 +55,6 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_naiads_v4a_6f.bsp.bz
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_neochrome_csgo3a.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_nomada_h3.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_nora_v1_11.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_oblivion_castle_v6.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_oblivion_mountain_b2k.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_offliner_v2_csgo1.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_omen_090.bsp.bz2

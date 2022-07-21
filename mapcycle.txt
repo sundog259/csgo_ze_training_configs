@@ -56,7 +56,6 @@ ze_nora_v1_11
 ze_oblivion_mountain_b2k
 ze_offliner_v2_csgo1
 ze_omen_090
-ze_omochix_v3_2fix
 ze_oblivion_mountain_b2k
 ze_onahole_v3_3_3
 ze_Pirates_Port_Royal_v5_6

@@ -58,7 +58,6 @@ http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_nora_v1_11.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_oblivion_mountain_b2k.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_offliner_v2_csgo1.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_omen_090.bsp.bz2
-http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_omochix_v3_2fix.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_onahole_v3_3_3.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_Pirates_Port_Royal_v5_6.bsp.bz2
 http://sgfastdl.streamline-servers.com/fastdl/Zeddy/maps/ze_pkmn_adventure_v9_3.bsp.bz2

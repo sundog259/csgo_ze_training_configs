@@ -3,7 +3,6 @@
 			"ze_angelbeats_guild_a1_fix2" {}
 			"ze_aware_v1_2a" {}
 			"ze_binary_z4_1" {}
-			"ze_blue_zenith_v0_2" {}
 			"ze_cancer_gopnik_escape_v9_2" {}
 			"ze_crazy_escape_v6_1" {}
 			"ze_chroma_v0_4_csgo5" {}
@@ -24,7 +23,6 @@
 			"ze_ffvii_cosmo_canyon_v6test4" {}
 			"ze_FFVII_Mako_Reactor_v5_3_v5" {}
 			"ze_ffvii_mako_reactor_v6_b09k2" {}
-			"ze_ffvii_malgo_reactor_v8_5" {}
 			"ze_ffvii_temple_ancient_v5_2" {}
 			"ze_ffxii_feywood_b6_3k" {}
 			"ze_FFXII_Mt_Bur_Omisace_v5_4fix4" {}
@@ -38,7 +36,7 @@
 			"ze_grey_world_v1" {}
 			"ze_gris_v1_13" {}
 			"ze_hsc_a4_q3" {}
-			"ze_hydroponic_garden_v1_1.bsp" {}
+			"ze_hydroponic_garden_v1_1" {}
 			"ze_Kitchen_v2" {}
 			"ze_light_shadow_l1_4" {}
 			"ze_luciddreams_f5_7" {}
@@ -53,15 +51,15 @@
 			"ze_naiads_v4a_6f" {}
 			"ze_neochrome_csgo3a" {}
 			"ze_nomada_h3" {}
+			"ze_no_name_v2_3" {}
 			"ze_nora_v1_11" {}
 			"ze_oblivion_castle_v6" {}
 			"ze_oblivion_mountain_b2k" {}
 			"ze_offliner_v2_csgo1" {}
 			"ze_omen_090" {}
-			"ze_omochix_v3_2fix" {}
 			"ze_oblivion_mountain_b2k" {}
 			"ze_onahole_v3_3_3" {}
-			"ze_pidaras_va2" {}
+			"ze_palace_of_minolila_v1" {}
 			"ze_Pirates_Port_Royal_v5_6" {}
 			"ze_pkmn_adventure_v9_3" {}
 			"ze_project_codex_a3_1" {}
@@ -70,7 +68,6 @@
 			"ze_realm_v1_1" {}
 			"ze_Reverse_a03_f" {}
 			"ze_re_creation_v2_25" {}
-			"ze_roscente_go1" {}
 			"ze_ruin_of_black_stone_v2" {}
 			"ze_ruminas_v12_f" {}
 			"ze_rush_B_v1_4" {}

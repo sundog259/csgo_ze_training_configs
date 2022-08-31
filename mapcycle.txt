@@ -44,6 +44,9 @@ ze_hydroponic_garden_v1_1
 ze_Kitchen_v2
 ze_light_shadow_l1_4
 ze_laserheaven_csgo2
+ze_last_man_standing_csgo3
+ze_Last_Man_Standing_p2
+ze_Last_Man_Standing_v6_T3
 ze_luciddreams_f5_7
 ze_lux_umbra_v1
 ze_m_the_final_v1_4

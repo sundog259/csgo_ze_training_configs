@@ -380,5 +380,4 @@
 	sm_freeze 1
 	sv_enablebunnyhopping 1
 	sm_slay 1
-	sm_god 1
 }

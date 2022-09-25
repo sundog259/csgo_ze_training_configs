@@ -674,7 +674,7 @@ function AdminSetStage(i)
 	local g_round = Entities.FindByName(null, "round_end");
 	if(g_round != null && g_round.IsValid())
 	{
-		EntFireByHandle(g_round, "EndRound_Draw", "3", 0, null, null);
+		EntFireByHandle(g_round, "EndRound_CounterTerroristsWin", "3", 0, null, null);
 	}
 	Stage = i;
 }

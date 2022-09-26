@@ -75,6 +75,7 @@ ze_pkmn_adventure_v9_3
 ze_project_codex_a3_1
 ze_R_W_B_ulti
 ze_Rabanastre_Royal_t5
+ze_randomizer_c1
 ze_realm_v1_1
 ze_Reverse_a03_f3
 ze_re_creation_v2_25
@@ -100,6 +101,7 @@ ze_tenkinoko_welkin_v1_6f
 ze_the_new_era_of_crazy_escape_b8
 ze_tilex_ultimate_v2_13e
 ze_titanlaser_b3
+ze_three_eyes_v1_1
 ze_trials_v3_test
 ze_tyranny_v5_go3
 ze_tyranny2_v1_csgo2

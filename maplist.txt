@@ -5,6 +5,7 @@ ze_ancient_wrath_v2_test27_m5
 ze_angelbeats_guild_a1_fix2
 ze_aware_v1_2a
 ze_binary_z4_1
+ze_blue_zenith_v0_2
 ze_Boatescape_Ultimate_t1
 ze_cancer_gopnik_escape_v9_2
 ze_crazy_escape_v6_1
@@ -73,6 +74,7 @@ ze_palace_of_minolila_v1
 ze_Pirates_Port_Royal_v5_6
 ze_pkmn_adventure_v9_3
 ze_project_codex_a3_1
+ze_project_codex_v1_prerelease
 ze_R_W_B_ulti
 ze_Rabanastre_Royal_t5
 ze_randomizer_c1
